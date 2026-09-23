@@ -4,40 +4,5 @@
         "kategori": "KEGIATAN",
         "judul": "Maulid Nabi Muhammad SAW 1448H",
         "gambar": "assets/galeri/1.jpg"
-    },
-
-    {
-        "id": 2,
-        "kategori": "KEGIATAN",
-        "judul": "Kajian Jamaah",
-        "gambar": "assets/galeri/kajian-2.jpg"
-    },
-
-    {
-        "id": 3,
-        "kategori": "SOSIAL",
-        "judul": "Santunan Anak Yatim",
-        "gambar": "assets/galeri/santunan-1.jpg"
-    },
-
-    {
-        "id": 4,
-        "kategori": "SOSIAL",
-        "judul": "Berbagi Sembako",
-        "gambar": "assets/galeri/santunan-2.jpg"
-    },
-
-    {
-        "id": 5,
-        "kategori": "PEMUDA",
-        "judul": "Kegiatan Pemuda",
-        "gambar": "assets/galeri/pemuda-1.jpg"
-    },
-
-    {
-        "id": 6,
-        "kategori": "RAMADAN",
-        "judul": "Kegiatan Ramadan",
-        "gambar": "assets/galeri/ramadan-1.jpg"
     }
 ]
