@@ -1009,6 +1009,225 @@ button {
     .modal-box > img {
         height: 220px;
     }
+   /* =====================================================
+   PROGRAM DONASI
+===================================================== */
+
+.donation-program {
+    position: relative;
+}
+
+
+.donation-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    background: #ffffff;
+    color: #0b6b4b;
+
+    padding: 7px 12px;
+
+    border-radius: 50px;
+
+    font-size: 11px;
+    font-weight: 800;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,.15);
+}
+
+
+.donation-button {
+    color: #0b6b4b;
+}
+
+
+
+/* =====================================================
+   DONATION DETAIL
+===================================================== */
+
+.donation-detail > p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+.donation-amount {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
+.donation-amount > div {
+    background: #f4f8f5;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+
+.donation-amount small {
+    display: block;
+    color: #999;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+
+.donation-amount strong {
+    display: block;
+    color: #0b6b4b;
+    font-size: 18px;
+}
+
+
+.detail-progress {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+
+.detail-progress-bar {
+    height: 9px;
+    flex: 1;
+    background: #e4ebe6;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+
+.detail-progress-bar div {
+    height: 100%;
+    background: #0b6b4b;
+    border-radius: 50px;
+}
+
+
+.detail-progress > strong {
+    color: #0b6b4b;
+    font-size: 13px;
+}
+
+
+
+/* =====================================================
+   QR DETAIL
+===================================================== */
+
+.qr-detail {
+    text-align: center;
+    background: #f7faf8;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+
+.qr-detail img {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+.qr-detail h4 {
+    margin-top: 15px;
+}
+
+
+.qr-detail p {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+/* =====================================================
+   BANK
+===================================================== */
+
+.bank-detail {
+    margin-top: 20px;
+    background: #f4f8f5;
+    padding: 18px;
+    border-radius: 15px;
+}
+
+
+.bank-detail small {
+    display: block;
+    color: #999;
+    font-size: 11px;
+}
+
+
+.bank-detail > strong {
+    display: block;
+    margin: 3px 0 8px;
+}
+
+
+.bank-number {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.bank-number span {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0b6b4b;
+}
+
+
+.bank-number button {
+    width: 34px;
+    height: 34px;
+    border: 0;
+    border-radius: 8px;
+    background: #dceee6;
+    color: #0b6b4b;
+    cursor: pointer;
+}
+
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:600px) {
+
+    .donation-amount {
+        grid-template-columns: 1fr;
+    }
+
+
+    .qr-detail img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .bank-number span {
+        font-size: 17px;
+    }
+
+}
 
     .modal-body {
         padding: 20px;
