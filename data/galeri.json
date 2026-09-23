@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "kategori": "KEGIATAN",
+        "judul": "Maulid",
+        "gambar": "assets/galeri/1.png"
+    },
+
+    {
+        "id": 2,
+        "kategori": "KEGIATAN",
+        "judul": "Kajian Jamaah",
+        "gambar": "assets/galeri/kajian-2.jpg"
+    },
+
+    {
+        "id": 3,
+        "kategori": "SOSIAL",
+        "judul": "Santunan Anak Yatim",
+        "gambar": "assets/galeri/santunan-1.jpg"
+    },
+
+    {
+        "id": 4,
+        "kategori": "SOSIAL",
+        "judul": "Berbagi Sembako",
+        "gambar": "assets/galeri/santunan-2.jpg"
+    },
+
+    {
+        "id": 5,
+        "kategori": "PEMUDA",
+        "judul": "Kegiatan Pemuda",
+        "gambar": "assets/galeri/pemuda-1.jpg"
+    }
+    
+]

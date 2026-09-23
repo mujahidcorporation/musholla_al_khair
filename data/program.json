@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "kategori": "DONASI",
+        "judul": "Penggalangan Dana Pembangunan Musholla",
+        "deskripsi": "Mari bersama mendukung pembangunan dan renovasi fasilitas Musholla Al Khair.",
+        "gambar": "assets/program/donasi.jpg",
+        "periode": "Berlangsung",
+        "isi": "<p>Penggalangan dana ini diperuntukkan bagi kebutuhan pembangunan dan renovasi fasilitas Musholla Al Khair.</p><p>Setiap dukungan yang diberikan akan menjadi bagian dari ikhtiar bersama dalam menghadirkan fasilitas ibadah yang lebih baik.</p>",
+
+        "donasi": {
+
+            "aktif": true,
+
+            "target": 300000000,
+
+            "terkumpul": 140000000,
+
+            "qr": "assets/donasi/1.png",
+
+            "bank": "Bank Syariah Indonesia",
+
+            "rekening": "1234567890",
+
+            "atas_nama": "Musholla Al Khair"
+
+        }
+    }
+]
