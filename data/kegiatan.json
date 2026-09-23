@@ -3,39 +3,9 @@
         "id": 1,
         "kategori": "KEAGAMAAN",
         "tanggal": "Setiap Pekan",
-        "judul": "Kajian Rutin Jamaah",
+        "judul": "Kajian Rutin Kitab Sulam Taufiq",
         "deskripsi": "Kajian keislaman rutin untuk menambah wawasan dan pemahaman agama jamaah.",
-        "gambar": "assets/kegiatan/kajian.jpg",
+        "gambar": "assets/kegiatan/1.jpg",
         "isi": "<p>Kajian rutin merupakan salah satu kegiatan keagamaan Musholla Al Khair yang dilaksanakan secara berkala.</p><p>Kegiatan ini menjadi sarana untuk menambah ilmu, mempererat silaturahmi, dan meningkatkan semangat beribadah.</p>"
-    },
-
-    {
-        "id": 2,
-        "kategori": "SOSIAL",
-        "tanggal": "Agenda Bulanan",
-        "judul": "Berbagi dan Santunan",
-        "deskripsi": "Kegiatan sosial sebagai bentuk kepedulian terhadap masyarakat sekitar.",
-        "gambar": "assets/kegiatan/santunan.jpg",
-        "isi": "<p>Program berbagi dan santunan merupakan bentuk kepedulian Musholla Al Khair kepada masyarakat.</p><p>Kegiatan dapat berupa santunan anak yatim, bantuan dhuafa, pembagian sembako, dan kegiatan sosial lainnya.</p>"
-    },
-
-    {
-        "id": 3,
-        "kategori": "PEMUDA",
-        "tanggal": "Agenda Pemuda",
-        "judul": "Kegiatan Generasi Muda",
-        "deskripsi": "Pembinaan dan kegiatan positif untuk generasi muda di lingkungan Musholla Al Khair.",
-        "gambar": "assets/kegiatan/pemuda.jpg",
-        "isi": "<p>Generasi muda memiliki peran penting dalam keberlangsungan kegiatan musholla.</p><p>Oleh karena itu, Musholla Al Khair menghadirkan berbagai kegiatan positif bagi pemuda dan remaja.</p>"
-    },
-
-    {
-        "id": 4,
-        "kategori": "RAMADAN",
-        "tanggal": "Bulan Ramadan",
-        "judul": "Pesantren Ramadan",
-        "deskripsi": "Kegiatan pembinaan keislaman selama bulan Ramadan.",
-        "gambar": "assets/kegiatan/ramadan.jpg",
-        "isi": "<p>Pesantren Ramadan menjadi kegiatan pembinaan bagi anak-anak dan remaja selama bulan Ramadan.</p>"
     }
 ]
