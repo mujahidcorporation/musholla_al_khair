@@ -1,0 +1,1 @@
+Taruh file PDF perpustakaan di folder ini, lalu daftarkan di Data/perpustakaan.json
