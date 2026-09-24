@@ -1,1 +1,23 @@
-Taruh file PDF perpustakaan di folder ini, lalu daftarkan di Data/perpustakaan.json
+CARA MENAMBAH BUKU DI PERPUSTAKAAN (VERSI GOOGLE DRIVE)
+
+1. Upload file PDF ke Google Drive kamu.
+2. Klik kanan file -> "Bagikan" / "Share" -> ubah akses jadi
+   "Siapa saja yang memiliki link" (Anyone with the link) -> Pembaca/Viewer.
+3. Klik "Salin link" (Copy link). Contoh hasilnya:
+   https://drive.google.com/file/d/1AbCdEfGhIjKlmNoPQRstuVwxYZ/view?usp=sharing
+4. Buka Data/perpustakaan.json, tambahkan entri baru, contoh:
+
+{"judul":"Judul Buku","penulis":"Nama Penulis","deskripsi":"Deskripsi singkat.","file":"https://drive.google.com/file/d/1AbCdEfGhIjKlmNoPQRstuVwxYZ/view?usp=sharing"}
+
+5. Simpan. Cukup tempel link "share" Google Drive apa adanya ke field "file" —
+   situs otomatis mengambil ID filenya dan membuatkan tombol "Lihat" (preview)
+   dan "Unduh" (download langsung).
+
+Catatan:
+- Pastikan akses file "Siapa saja yang memiliki link", kalau tidak orang lain
+  tidak bisa membuka/mengunduhnya.
+- File PDF tidak perlu lagi ditaruh di folder ini (folder PDF/), cukup lewat
+  Google Drive. Folder ini boleh dikosongkan.
+- Untuk file yang sangat besar, Google kadang menampilkan halaman peringatan
+  "tidak bisa memindai virus" sebelum unduhan dimulai — itu normal dari Google,
+  tinggal klik "Unduh saja" / "Download anyway".

@@ -9,7 +9,13 @@ const RENDER={
   kegiatan:d=>`<article class="card">${img(d.foto,d.judul)}<div><small>${esc(d.tanggal)}</small><h3>${esc(d.judul)}</h3><p>${esc(d.deskripsi)}</p></div></article>`,
   program:d=>`<article class="card">${img(d.foto,d.judul)}<div><h3>${esc(d.judul)}</h3><p>${esc(d.deskripsi)}</p></div></article>`,
   galeri:d=>`<figure>${img(d.foto,d.keterangan)}<figcaption>${esc(d.keterangan)}</figcaption></figure>`,
-  perpustakaan:d=>`<div class="item"><div><h3>${esc(d.judul)}</h3><p>${esc(d.penulis)} · ${esc(d.deskripsi)}</p></div><a class="btn" href="${esc(d.file)}" download>Unduh PDF</a></div>`
+  perpustakaan:d=>{
+    const idm=String(d.file??"").match(/[-\w]{25,}/); // ambil ID file dari link Google Drive
+    const idDrive=idm?idm[0]:null;
+    const lihat=idDrive?`https://drive.google.com/file/d/${idDrive}/view`:d.file;
+    const unduh=idDrive?`https://drive.google.com/uc?export=download&id=${idDrive}`:d.file;
+    return `<div class="item"><div><h3>${esc(d.judul)}</h3><p>${esc(d.penulis)} · ${esc(d.deskripsi)}</p></div><div style="display:flex;gap:8px"><a class="btn" href="${esc(lihat)}" target="_blank" rel="noopener">Lihat</a><a class="btn" href="${esc(unduh)}" target="_blank" rel="noopener">Unduh</a></div></div>`;
+  }
 };
 document.querySelectorAll("[data-src]").forEach(async el=>{
   try{
