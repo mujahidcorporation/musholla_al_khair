@@ -1,5 +1,5 @@
 const MENU=[["index","Beranda","index.html"],["kegiatan","Kegiatan","kegiatan.html"],["program","Program","program.html"],["galeri","Galeri","galeri.html"],["perpustakaan","Perpustakaan","perpustakaan.html"],["kontak","Kontak","kontak.html"]];
-const WA="6287781546647"; // ganti dengan nomor WhatsApp pengurus (format 62...)
+const WA="6281318321098"; // ganti dengan nomor WhatsApp pengurus (format 62...)
 const halaman=document.body.dataset.page;
 document.getElementById("site-header").innerHTML=`<nav class="nav"><a class="brand" href="index.html"><img src="Aset/Logo/logo.png" alt="Logo Musholla Al Khair" onerror="this.remove()"><span>Musholla Al Khair</span></a><ul>${MENU.map(m=>`<li><a href="${m[2]}" class="${m[0]===halaman?"aktif":""}">${m[1]}</a></li>`).join("")}</ul></nav>`;
 document.getElementById("site-footer").innerHTML=`<p>© ${new Date().getFullYear()} Musholla Al Khair. Barakallahu fiikum.</p>`;
